@@ -4,3 +4,11 @@ febs.iml
 */*.iml
 /file
 /log
+
+# eclipse files
+.project
+/.settings
+*/*.project
+*/.settings
+*/.classpath
+*/*.factorypath

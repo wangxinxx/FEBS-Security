@@ -16,7 +16,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @SpringBootApplication(exclude = {SocialWebAutoConfiguration.class})
-@MapperScan("cc.mrbird.*.dao")
+@MapperScan({"cc.mrbird.*.dao"})
 @EnableConfigurationProperties({FebsSecurityProperties.class, FebsProperies.class})
 @EnableCaching
 @EnableAsync
@@ -25,6 +25,6 @@ public class FebsApplication {
     public static void main(String[] args) {
         SpringApplication.run(FebsApplication.class, args);
         LoggerFactory.getLogger(FebsApplication.class).info(
-                "Febs started up successfully at {} {}", LocalDate.now(), LocalTime.now());
+                "《《《《《《 FEBS started up successfully at {} {} 》》》》》》", LocalDate.now(), LocalTime.now());
     }
 }

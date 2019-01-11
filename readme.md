@@ -1,5 +1,5 @@
 ![https://img.shields.io/badge/build-success-brightgreen.svg?longCache=true&style=flat-square](https://img.shields.io/badge/build-success-brightgreen.svg?longCache=true&style=flat-square)
-![https://img.shields.io/badge/license-Apache%202-blue.svg?longCache=true&style=flat-square](https://img.shields.io/badge/license-Apache%202-blue.svg?longCache=true&style=flat-square)
+![https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=flat-square](https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=flat-square)
 ![https://img.shields.io/badge/springboot-2.0.4-yellow.svg?longCache=true&style=popout-square](https://img.shields.io/badge/springboot-2.0.4-yellow.svg?longCache=true&style=popout-square)
 ![https://img.shields.io/badge/spring%20security-5.0.7-green.svg?longCache=true&style=popout-square](https://img.shields.io/badge/spring%20security-5.0.7-green.svg?longCache=true&style=popout-square)
 
@@ -140,9 +140,15 @@ FEBS-Security是一个简单高效的后台权限管理系统。项目基础框�
 
 ![5e6d35e4390cf7f0752d7864ad701e2b.png](http://olwqftdzl.bkt.clouddn.com/18-4-18/81830531.jpg)
 
+## 更新日志
+**2018年11月26日 by[liuliuzx](https://github.com/liuliuzx)**
+
+新增thymeleaf自定义数据字典方言标签，具体使用方法：
+
+```
+<dict:show fieldName="ssex" keyy="1"></dict:show>
+<dict:select fieldName="ssex"  name="type" keyy="1" class="form-control" id="ssex"></dict:select>
+```
+
 ### 反馈交流
-对项目或者文档有任何疑问可以在这留言，或者加入FEBS交流群一起探讨<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=4ce4501ab0677b0679cc55d7e4c411b9239beb4a2e358f8b4eaff058ed18cc6a"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="FEBS交流群" title="FEBS交流群"></a>
-
-或者扫描：
-
 ![](http://olwqftdzl.bkt.clouddn.com/18-9-18/77785846.jpg)

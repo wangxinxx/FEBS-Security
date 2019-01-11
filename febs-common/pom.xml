@@ -61,10 +61,15 @@
             <artifactId>reflections</artifactId>
             <version>0.9.11</version>
         </dependency>
+        <!-- 七牛云OSS依赖 -->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>[7.2.0, 7.2.99]</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
-            <!--
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
@@ -96,7 +101,6 @@
                     <configurationFile>src/main/resources/config/mybatis-generator.xml</configurationFile>
                 </configuration>
             </plugin>
-            -->
         </plugins>
     </build>
 </project>
